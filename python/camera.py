@@ -6,6 +6,8 @@ while (True):
     # by frame
     ret, frame = vid.read()
 
+    # here you can load your .h5 trained model use frame (image from camera) as input to the model.
+    
     # If needed, convert the frame to grayscale
     # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
